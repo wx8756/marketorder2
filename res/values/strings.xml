@@ -1,0 +1,71 @@
+<resources>
+
+    <string name="username">用户名：</string>
+    <string name="userpassword">密码：</string>
+    <string name="login">登陆</string>
+    <string name="string_prompt">提示</string>
+    <string name="string_ok">确定</string>
+    <string name="logout">注销</string>
+    <string name="string_TDC">二维码</string>
+    <string name="string_downLoading">正在下载…</string>
+    <string name="string_downLoadError">下载失败</string>
+    <string name="string_newViverseion">检测到新版本，是否需要更新</string>
+    <string name="string_cancel">取消</string>
+    
+    <string name="string_en_ok">OK</string>
+    <string name="string_en_error">error</string>
+    
+    <string name="url_login">LOGIN</string>
+    <string name="url_systemTime">url_systemTime</string>
+    <string name="url_softwareupdate">url_softwareupdate</string>
+    
+    <string name="string_key_FunctionList_menu">FunctionList_menu</string>
+    <string name="string_key_SearchCondition_condition">SearchCondition_condition</string>
+    <string name="string_key_SearchCondition_result">SearchCondition_result</string>
+    <string name="string_key_ApprovalList_result">ApprovalList_result</string>
+    <string name="string_key_ApprovalList_requestType">ApprovalList_requestType</string>
+    <string name="string_key_ApprovalList_OperationType">ApprovalList_OperationType</string>
+    <string name="string_key_ApprovalList_WaitNumber">ApprovalList_WaitNumber</string>
+    <string name="string_key_Approval_OperationType">Approval_OperationType</string>
+    <string name="string_key_file">file</string>
+    <string name="string_key_size">size</string>
+    <string name="string_key_ret">return</string>
+    <string name="string_key_storage">storage</string>
+    <string name="string_key_searchType">searchType</string>
+    <string name="string_key_orderCode">orderCode</string>
+    <string name="string_key_selectTableRow">selectTableRow</string>
+    <string name="string_key_isEnableEdit">isEnableEdit</string>
+    <string name="string_key_totalMoney">totalMoney</string>
+    <string name="string_key_totalWeight">totalWeight</string>
+    
+    <string name="string_search">查询</string>
+    <string name="string_back">返回</string>
+
+    
+    
+    <!--唯美在线-东莞MK-->
+    <string name="app_name">唯美在线</string>
+    <string name="address_qingyuan">http://218.16.141.135:50065</string>
+    <string name="address_jiangxi">http://218.95.73.7:50064</string>
+    <string name="address_dongguan">http://121.12.155.195:50066</string>
+    <string name="address_test">http://218.16.141.135:50062</string>
+    
+    <!-- <string name="address_local">http://192.168.3.17:6060</string> 
+    <string name="address">http://202.108.13.246:30060</string> -->
+    
+    
+     <!-- 易为系统-深圳 -->
+    <!-- <string name="app_name">易为系统-深圳</string>
+    <string name="address_qingyuan">http://218.16.141.135:50165</string>
+    <string name="address_jiangxi">http://218.95.73.7:50164</string>
+    <string name="address_dongguan">http://121.12.155.195:50166</string>
+    <string name="address_test">http://218.16.141.135:50062</string>
+      -->
+     <!-- 易为系统-东莞LD -->
+    <!-- <string name="app_name">易为系统-东莞LD</string>
+    <string name="address_qingyuan">http://218.16.141.135:50265</string>
+    <string name="address_jiangxi">http://218.95.73.7:50264</string>
+    <string name="address_dongguan">http://121.12.155.195:50266</string>
+    <string name="address_test">http://218.16.141.135:50062</string>
+     -->
+</resources>

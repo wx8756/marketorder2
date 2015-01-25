@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shon.marketorder2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+    <application 
+        android:name="MarketOrder2Application" 
+        android:allowBackup="true" 
+        android:icon="@drawable/ic_launcher" 
+        android:label="@string/app_name" 
+        android:theme="@style/AppTheme">
+        <activity 
+            android:name="Login" 
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+				<action android:name="android.intent.action.VIEW"/> 
+				<category android:name="android.intent.category.DEFAULT"/> 
+				<category android:name="android.intent.category.BROWSABLE"/>
+				<data android:scheme="http" android:host="zxing.appspot.com" android:path="/scan"/>
+     		</intent-filter>
+     		<intent-filter>
+				<action android:name="android.intent.action.VIEW"/> 
+				<category android:name="android.intent.category.DEFAULT"/> 
+				<category android:name="android.intent.category.BROWSABLE"/> 
+				<data android:scheme="http" android:host="www.google.com" android:path="/m/products/scan"/> 
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/> 
+				<category android:name="android.intent.category.DEFAULT"/> 
+				<category android:name="android.intent.category.BROWSABLE"/> 
+				<data android:scheme="http" android:host="www.google.co.uk" android:path="/m/products/scan"/> 
+			</intent-filter>
+        </activity>
+        <activity android:name="ChangePassword"></activity>
+        <activity android:name="FunctionList"></activity>
+        <activity android:name="SearchCondition"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="SearchResultView"></activity>
+        <activity android:name="ApprovalList"></activity>
+        <activity android:name="ApprovalProductList"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="ApprovalQuery"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="Approval"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        
+    </application>
+
+  <uses-permission android:name="android.permission.READ_CONTACTS"/>
+  <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.FLASHLIGHT"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+  <!-- Wifi related  -->
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+</manifest>
